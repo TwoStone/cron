@@ -22,14 +22,10 @@
 	</modules>
 
 	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
+        <repository>
+            <id>bintray-maven</id>
+            <url>https://api.bintray.com/maven/walter-niklas/maven/cron/;publish=1</url>
+        </repository>
 	</distributionManagement>
 
 	<dependencies>
